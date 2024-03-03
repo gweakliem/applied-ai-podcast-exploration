@@ -1,0 +1,19 @@
+{
+  "segments": [
+    {
+      "start": 39.39,
+      "end": 63.09,
+      "text": "I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for our build system? Like we write tests for our software to verify that our production system is going to work. Why don't we write tests to validate that our build system is doing to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth. Have you seen this idea explored or is anybody doing this? I think this is a great idea."
+    },
+    {
+      "start": 102.33,
+      "end": 130.54,
+      "text": "So, yeah, I mean, I would love to test a build system and check that it's doing what I think it's doing. And I think the first thing that one of the things I like about Der Velocity, not to pound it too hard, because actually I'm still fairly new to Gradle, and I'm still kind of, in many ways, I'm still trying to get them to sell to me, like, what is this product and what's it for? Because I'm not the kind of advocate who's just going to go out and sell a product. I really have to believe in it."
+    },
+    {
+      "start": 141.45,
+      "end": 200.01,
+      "text": "With a build scan, you can see visually the parallelism of your build. So you can see it's run five different threads and this is where the tasks were run. And I really like that because it's not quite the same as an automated test, but it's at least some kind of feedback into what is happening in the build. And so I use these build scans to be like, I want to tune the build and so I use these build scans to be like I want to tune the build now I want to with this build I was trying to add parallelization add parallelism add the build cache and then I wanted to also parallelize the individual tests, which is a separate thing too. And so I can use the build scan and look at them side by side and go, obviously I can look at the overall time, but I can see, are these things running parallel? Which things came from the cache versus which compilations needed to happen again. And you can even do side-by-side comparison in terms of like things like which dependencies did this build use versus this build. So, I mean, that's kind of the first step."
+    }
+  ]
+}
